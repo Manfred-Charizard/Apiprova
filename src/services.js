@@ -53,3 +53,11 @@ export function sequencia(limite){
     }
     return n;
 }
+
+export function fatorial(numero){
+    let a = 1
+    for (let con = numero; numero > 1; con--){
+        a*=con
+    }
+    return a; 
+}
